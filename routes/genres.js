@@ -3,7 +3,8 @@ const {Genre, validate} = require('../models/genre');
 const express = require('express');
 const router = express.Router();
 
-router.get('/', auth, async (req, res) => {
+router.get('/', async (req, res, next) => {
+  throw new Error('Could duhduhd');
   const genres = await Genre.find().sort('name');
   res.send(genres);
 });
