@@ -2,6 +2,7 @@ const auth = require('../middleware/auth');
 const {Genre, validate} = require('../models/genre');
 const express = require('express');
 const router = express.Router();
+const mongoose = require('mongoose');
 
 router.get('/', async (req, res, next) => {
   const genres = await Genre.find().sort('name');
@@ -40,6 +41,10 @@ router.delete('/:id', async (req, res) => {
 });
 
 router.get('/:id', async (req, res) => {
+  if(!mongoose.Types.ObjectId.isValid(req.params.id)) {
+    return res.status(404).send('Invalid ID.');
+  }
+  
   const genre = await Genre.findById(req.params.id);
 
   if (!genre) return res.status(404).send('The genre with the given ID was not found.');
