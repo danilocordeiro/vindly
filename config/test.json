@@ -1,3 +1,4 @@
 {
-  "jwtPrivateKey": "sidjiosdn04564sdjnlsdn"
+  "jwtPrivateKey": "sidjiosdn04564sdjnlsdn",
+  "db": "mongodb://localhost/vidly_testes"
 }
