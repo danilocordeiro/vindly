@@ -42,3 +42,89 @@
 {"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
 {"message":"Listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"500 - Genre validation failed: name: Path `name` (`1234`) is shorter than the minimum allowed length (5). - /api/genres - POST - ::ffff:127.0.0.1","meta":{"errors":{"name":{"message":"Path `name` (`1234`) is shorter than the minimum allowed length (5).","name":"ValidatorError","properties":{"message":"Path `{PATH}` (`{VALUE}`) is shorter than the minimum allowed length (5).","type":"minlength","minlength":5,"path":"name","value":"1234"},"kind":"minlength","path":"name","value":"1234","$isValidatorError":true}},"_message":"Genre validation failed","message":"Genre validation failed: name: Path `name` (`1234`) is shorter than the minimum allowed length (5).","name":"ValidationError"},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"500 - Genre validation failed: name: Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50). - /api/genres - POST - ::ffff:127.0.0.1","meta":{"errors":{"name":{"message":"Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).","name":"ValidatorError","properties":{"message":"Path `{PATH}` (`{VALUE}`) is longer than the maximum allowed length (50).","type":"maxlength","maxlength":50,"path":"name","value":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},"kind":"maxlength","path":"name","value":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","$isValidatorError":true}},"_message":"Genre validation failed","message":"Genre validation failed: name: Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).","name":"ValidationError"},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"500 - Cannot set headers after they are sent to the client - /api/genres - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
