@@ -40,3 +40,5 @@
 {"message":"500 - Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\" - /api/genres/1 - GET - ::ffff:127.0.0.1","meta":{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id"},"level":"error"}
 {"message":"Listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
