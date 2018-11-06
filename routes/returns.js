@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { Rental } = require('../models/rental');
 const { Movie } = require('../models/movie');
-const auth = require('../models/auth');
+const auth = require('../middleware/auth');
 const moment = require('moment');
 
 router.post('/', auth, async(req, res) => {

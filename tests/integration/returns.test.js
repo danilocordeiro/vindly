@@ -14,17 +14,17 @@ describe('/api/returns', () => {
   let token;
   
   const exec = () => {
-	return request(server)
-	  .post('/api/returns')
-	  .set('x-auth-token', token)
-	  .send({customerId, movieId});
+		return request(server)
+			.post('/api/returns')
+			.set('x-auth-token', token)
+			.send({customerId, movieId});
   }
   
   beforeEach( async() => {
-	server = require('../../index');
-	customerId = mongoose.Types.ObjectId();
-	movieId = mongoose.Types.ObjectId();
-	token = new User().generateAuthToken();
+		server = require('../../index');
+		customerId = mongoose.Types.ObjectId();
+		movieId = mongoose.Types.ObjectId();
+		token = new User().generateAuthToken();
 	
 	movie = new Movie({
 	  _id: movieId,
@@ -115,17 +115,20 @@ describe('/api/returns', () => {
   
   it('should increase the movie stock if input is valid', async() => {
 		
-	const res = await exec(); 
-	
-	const movieInDb = await Movie.findById(movieId);
-	expect(movieInDb.numberInStock).toBe(movie.numberInStock + 1);
+		const res = await exec(); 
+		
+		const movieInDb = await Movie.findById(movieId);
+		expect(movieInDb.numberInStock).toBe(movie.numberInStock + 1);
   });
   
   it('should retun the rental input is valid', async() => {
 		
-	const res = await exec(); 
-	
-	const rentalInDb = await Rental.findById(rental._id);
-	expect(res.body).toMatchObject(rentalInDb);
+		const res = await exec(); 
+		
+		const rentalInDb = await Rental.findById(rental._id);
+
+		expect(Object.keys(res.body)).toEqual(
+			expect.arrayContaining(['dateOut', 'dateReturned', 'rentalFee',
+			'customer', 'movie']));
   });
 });
