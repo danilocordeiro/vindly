@@ -11,10 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "compression": "^1.7.3",
     "config": "^2.0.1",
     "express": "^4.16.2",
     "express-async-errors": "^3.1.1",
     "fawn": "^2.1.5",
+    "helmet": "^3.14.0",
     "joi": "^14.0.1",
     "joi-objectid": "^2.0.0",
     "jsonwebtoken": "^8.3.0",
