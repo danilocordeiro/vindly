@@ -799,3 +799,5 @@
 {"message":"Listening on port 3000...","level":"info"}
 {"message":"Connected to mongodb://localhost/vidly_testes...","level":"info"}
 {"message":"500 - Cannot set headers after they are sent to the client - /api/returns - POST - ::ffff:127.0.0.1","meta":{},"level":"error"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb://localhost/vidly...","level":"info"}
